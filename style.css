@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f3e9b6, #ff4e50);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+  max-width: 600px;
+  margin: 80px auto;
+  background-color: #48db74;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff5722;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.result {
+  margin-top: 30px;
+  min-height: 60px;
+}
+
+#candyName {
+  font-size: 2rem;
+  color: #333;
+  margin: 20px 0 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.spin {
+  animation: spinText 0.2s infinite;
+}
+
+@keyframes spinText {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
